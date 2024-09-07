@@ -47,3 +47,6 @@ LLAMAFILE:
 Llamafile needs to have the system promt in json format for it to load, that is why there is a UCSP in .json format. 
 load your model with these flags to load the system promt json file in the same DIR:
 --system-prompt-file "UCSP - Universal CORE System Prompt v1.0.json"
+
+
+Building a Dataset now to share on HF.
