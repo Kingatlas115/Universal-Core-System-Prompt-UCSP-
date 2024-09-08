@@ -49,4 +49,10 @@ load your model with these flags to load the system promt json file in the same 
 --system-prompt-file "UCSP - Universal CORE System Prompt v1.0.json"
 
 
-Building a Dataset now to share on HF.
+HF dataset:
+https://huggingface.co/datasets/skratos115/UCSP-Universal_CORE_System_Prompt_v1.0
+
+## Support my work
+
+Right now all of my work has been funded personally, if you like my work and can help support growth in the AI community consider joining or donating to my Patreon.
+[Patreon Link](https://www.patreon.com/atlasaisecurity)
