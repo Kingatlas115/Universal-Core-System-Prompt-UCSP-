@@ -80,3 +80,10 @@ Note:
 This script is designed to be run in an environment with access to the specified AI models and appropriate API keys. Ensure all necessary credentials and permissions are in place before running the script.
 
 For any issues or further customization needs, please refer to the script comments or contact the development team.
+
+
+here is the full CLI command i use to run the script:
+$ python3 USCP_DataSet_Generator_v1.0.py --num_tool 10 --num_workflow_management 10 --num_debug 10 --num_code_generation 150 --num_optimization 50 --num_visualization 50 --num_translation 20 --num_math 10 --num_metadata 20 --num_combined_features 150 --openai_api_key "********" --openrouter_api_key "*******" --openai_model gpt-4o-mini --openrouter_model nousresearch/hermes-3-llama-3.1-405b --prompt_generation_model nousresearch/hermes-3-llama-3.1-405b --response_generation_model nousresearch/hermes-3-llama-3.1-405b --grading_model gpt-4o-mini --output_csv UCSP_v1.0_DataSet.csv
+
+if you use the openrouter nousresearch/hermes-3-llama-3.1-405b is currently free. but i prefer to use a different model to grade outputs so its not as biased so i use gpt-4o-mini to do my grading.
+
